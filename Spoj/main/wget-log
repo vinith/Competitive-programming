@@ -1,0 +1,7 @@
+--2012-06-23 09:31:20--  https://www.spoj.pl/problems/classical/asdasdwq34v3
+Resolving www.spoj.pl (www.spoj.pl)... 153.19.131.19
+Connecting to www.spoj.pl (www.spoj.pl)|153.19.131.19|:443... connected.
+Unable to establish SSL connection.
+--2012-06-23 09:54:18--  http://acs/
+Resolving acs (acs)... failed: Name or service not known.
+wget: unable to resolve host address `acs'
