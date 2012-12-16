@@ -1,0 +1,16 @@
+import psyco
+psyco.full()
+d={}
+for z in range(input()):
+    s,v=raw_input().split(' ')
+    d[int(v)]=s
+s=sorted(d,reverse=True)
+for x in range(input()):
+    q=raw_input()
+    found,l=False,len(q)
+    for i in s:
+        if d[i][:l]==q:
+            print d[i]
+            found=True
+            break
+    if not found:print 'NO'
